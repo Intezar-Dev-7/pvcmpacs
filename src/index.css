@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@keyframes whatsapp-glow {
+  0%, 100% {
+    box-shadow: 0 0 6px 1px rgba(37, 211, 102, 0.65), 0 3px 10px rgba(0, 0, 0, 0.18);
+  }
+  50% {
+    box-shadow: 0 0 11px 2px rgba(37, 211, 102, 0.95), 0 4px 14px rgba(0, 0, 0, 0.24);
+  }
+}
+
+.animate-whatsapp-glow {
+  animation: whatsapp-glow 2.2s infinite ease-in-out;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+

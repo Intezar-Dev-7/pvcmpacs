@@ -1,0 +1,6 @@
+{
+  "name": "Parra Verla Canca Co-operative Society",
+  "description": "Official website for Parra Verla Canca Multipurpose Primary Agriculture Co-operative Society Ltd (Serving since 1997), featuring deposit schemes, loans, branches, and banking services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
